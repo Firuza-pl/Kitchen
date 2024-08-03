@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_UNIKITCHENModelStoreContainer" CdmEntityContainer="DB_UNIKITCHENEntities">
+    <EntitySetMapping Name="T_APPENDIX">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_APPENDIX">
+        <MappingFragment StoreEntitySet="T_APPENDIX">
+          <ScalarProperty Name="A_ID" ColumnName="A_ID" />
+          <ScalarProperty Name="A_NO" ColumnName="A_NO" />
+          <ScalarProperty Name="A_DATE" ColumnName="A_DATE" />
+          <ScalarProperty Name="A_F_ID" ColumnName="A_F_ID" />
+          <ScalarProperty Name="A_CONTRACTNO" ColumnName="A_CONTRACTNO" />
+          <ScalarProperty Name="A_PRICE" ColumnName="A_PRICE" />
+          <ScalarProperty Name="A_BGDATE" ColumnName="A_BGDATE" />
+          <ScalarProperty Name="A_ENDATE" ColumnName="A_ENDATE" />
+          <ScalarProperty Name="A_STATUS" ColumnName="A_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_EMPLOYEE">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_EMPLOYEE">
+        <MappingFragment StoreEntitySet="T_EMPLOYEE">
+          <ScalarProperty Name="E_ID" ColumnName="E_ID" />
+          <ScalarProperty Name="E_F_ID" ColumnName="E_F_ID" />
+          <ScalarProperty Name="E_CODE" ColumnName="E_CODE" />
+          <ScalarProperty Name="E_NAME" ColumnName="E_NAME" />
+          <ScalarProperty Name="E_SNAME" ColumnName="E_SNAME" />
+          <ScalarProperty Name="E_STATUS" ColumnName="E_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_FIRMS">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_FIRMS">
+        <MappingFragment StoreEntitySet="T_FIRMS">
+          <ScalarProperty Name="F_ID" ColumnName="F_ID" />
+          <ScalarProperty Name="F_CODE" ColumnName="F_CODE" />
+          <ScalarProperty Name="F_NAME" ColumnName="F_NAME" />
+          <ScalarProperty Name="F_STATUS" ColumnName="F_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_MEALS">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_MEALS">
+        <MappingFragment StoreEntitySet="T_MEALS">
+          <ScalarProperty Name="M_ID" ColumnName="M_ID" />
+          <ScalarProperty Name="M_CAT_ID" ColumnName="M_CAT_ID" />
+          <ScalarProperty Name="M_CODE" ColumnName="M_CODE" />
+          <ScalarProperty Name="M_NAME" ColumnName="M_NAME" />
+          <ScalarProperty Name="M_OU_ID" ColumnName="M_OU_ID" />
+          <ScalarProperty Name="M_COFISENT" ColumnName="M_COFISENT" />
+          <ScalarProperty Name="M_STATUS" ColumnName="M_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_MENUDAY">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_MENUDAY">
+        <MappingFragment StoreEntitySet="T_MENUDAY">
+          <ScalarProperty Name="MD_ID" ColumnName="MD_ID" />
+          <ScalarProperty Name="MD_DATE" ColumnName="MD_DATE" />
+          <ScalarProperty Name="MD_BLBGTIME" ColumnName="MD_BLBGTIME" />
+          <ScalarProperty Name="MD_BLENTIME" ColumnName="MD_BLENTIME" />
+          <ScalarProperty Name="MD_U_ID" ColumnName="MD_U_ID" />
+          <ScalarProperty Name="MD_CRDATE" ColumnName="MD_CRDATE" />
+          <ScalarProperty Name="MD_STATUS" ColumnName="MD_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_OPERATION">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_OPERATION">
+        <MappingFragment StoreEntitySet="T_OPERATION">
+          <ScalarProperty Name="OPR_Z_ID" ColumnName="OPR_Z_ID" />
+          <ScalarProperty Name="OPR_ID" ColumnName="OPR_ID" />
+          <ScalarProperty Name="OPR_TYPE" ColumnName="OPR_TYPE" />
+          <ScalarProperty Name="OPR_STYPE" ColumnName="OPR_STYPE" />
+          <ScalarProperty Name="OPR_NO" ColumnName="OPR_NO" />
+          <ScalarProperty Name="OPR_DATE" ColumnName="OPR_DATE" />
+          <ScalarProperty Name="OPR_F_ID" ColumnName="OPR_F_ID" />
+          <ScalarProperty Name="OPR_E_ID" ColumnName="OPR_E_ID" />
+          <ScalarProperty Name="OPR_BL" ColumnName="OPR_BL" />
+          <ScalarProperty Name="OPR_TOTAL" ColumnName="OPR_TOTAL" />
+          <ScalarProperty Name="OPR_STATUS" ColumnName="OPR_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_OPERATIONLINE">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_OPERATIONLINE">
+        <MappingFragment StoreEntitySet="T_OPERATIONLINE">
+          <ScalarProperty Name="OPRL_ID" ColumnName="OPRL_ID" />
+          <ScalarProperty Name="ORRL_OPR_ID" ColumnName="ORRL_OPR_ID" />
+          <ScalarProperty Name="OPRL_M_ID" ColumnName="OPRL_M_ID" />
+          <ScalarProperty Name="OPRL_UOM_ID" ColumnName="OPRL_UOM_ID" />
+          <ScalarProperty Name="OPRL_QTY" ColumnName="OPRL_QTY" />
+          <ScalarProperty Name="OPRL_PRICE" ColumnName="OPRL_PRICE" />
+          <ScalarProperty Name="OPRL_TOTAL" ColumnName="OPRL_TOTAL" />
+          <ScalarProperty Name="OPRL_STATUS" ColumnName="OPRL_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_MENUS">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_SYS_MENUS">
+        <MappingFragment StoreEntitySet="T_SYS_MENUS">
+          <ScalarProperty Name="MNU_ID" ColumnName="MNU_ID" />
+          <ScalarProperty Name="MNU_PARENT" ColumnName="MNU_PARENT" />
+          <ScalarProperty Name="MNU_M_ID" ColumnName="MNU_M_ID" />
+          <ScalarProperty Name="MNU_CODE" ColumnName="MNU_CODE" />
+          <ScalarProperty Name="MNU_CAPTION1" ColumnName="MNU_CAPTION1" />
+          <ScalarProperty Name="MNU_CAPTION2" ColumnName="MNU_CAPTION2" />
+          <ScalarProperty Name="MNU_CAPTION3" ColumnName="MNU_CAPTION3" />
+          <ScalarProperty Name="MNU_CAPTION4" ColumnName="MNU_CAPTION4" />
+          <ScalarProperty Name="MNU_PAGEURL" ColumnName="MNU_PAGEURL" />
+          <ScalarProperty Name="MNU_CSSURL" ColumnName="MNU_CSSURL" />
+          <ScalarProperty Name="MNU_LEVEL" ColumnName="MNU_LEVEL" />
+          <ScalarProperty Name="MNU_ORDERBY" ColumnName="MNU_ORDERBY" />
+          <ScalarProperty Name="MNU_STATUS" ColumnName="MNU_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_USER">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_SYS_USER">
+        <MappingFragment StoreEntitySet="T_SYS_USER">
+          <ScalarProperty Name="U_ID" ColumnName="U_ID" />
+          <ScalarProperty Name="U_TYPE" ColumnName="U_TYPE" />
+          <ScalarProperty Name="U_CODE" ColumnName="U_CODE" />
+          <ScalarProperty Name="U_FIRSTNAME" ColumnName="U_FIRSTNAME" />
+          <ScalarProperty Name="U_LASTNAME" ColumnName="U_LASTNAME" />
+          <ScalarProperty Name="U_USERNAME" ColumnName="U_USERNAME" />
+          <ScalarProperty Name="U_PASSWORD" ColumnName="U_PASSWORD" />
+          <ScalarProperty Name="U_CHANGEPASS" ColumnName="U_CHANGEPASS" />
+          <ScalarProperty Name="U_STATUS" ColumnName="U_STATUS" />
+          <ScalarProperty Name="U_NOTE" ColumnName="U_NOTE" />
+          <ScalarProperty Name="U_EMAIL" ColumnName="U_EMAIL" />
+          <ScalarProperty Name="U_TEL" ColumnName="U_TEL" />
+          <ScalarProperty Name="U_CREATEDATE" ColumnName="U_CREATEDATE" />
+          <ScalarProperty Name="U_IMG" ColumnName="U_IMG" />
+          <ScalarProperty Name="U_FIRST" ColumnName="U_FIRST" />
+          <ScalarProperty Name="U_LASTLOGIN_DATE" ColumnName="U_LASTLOGIN_DATE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_USERGROUP">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_SYS_USERGROUP">
+        <MappingFragment StoreEntitySet="T_SYS_USERGROUP">
+          <ScalarProperty Name="UG_ID" ColumnName="UG_ID" />
+          <ScalarProperty Name="UG_CODE" ColumnName="UG_CODE" />
+          <ScalarProperty Name="UG_NAME" ColumnName="UG_NAME" />
+          <ScalarProperty Name="UG_STATUS" ColumnName="UG_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SYS_USERMENU">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_SYS_USERMENU">
+        <MappingFragment StoreEntitySet="T_SYS_USERMENU">
+          <ScalarProperty Name="UM_ID" ColumnName="UM_ID" />
+          <ScalarProperty Name="UM_U_TYPE" ColumnName="UM_U_TYPE" />
+          <ScalarProperty Name="UM_U_ID" ColumnName="UM_U_ID" />
+          <ScalarProperty Name="UM_TYPE" ColumnName="UM_TYPE" />
+          <ScalarProperty Name="UM_MNU_ID" ColumnName="UM_MNU_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_UOM">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_UOM">
+        <MappingFragment StoreEntitySet="T_UOM">
+          <ScalarProperty Name="UO_ID" ColumnName="UO_ID" />
+          <ScalarProperty Name="UO_CODE" ColumnName="UO_CODE" />
+          <ScalarProperty Name="UO_NAME" ColumnName="UO_NAME" />
+          <ScalarProperty Name="UO_STATUS" ColumnName="UO_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_SPECODE">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_SPECODE">
+        <MappingFragment StoreEntitySet="T_SPECODE">
+          <ScalarProperty Name="SC_STATUS" ColumnName="SC_STATUS" />
+          <ScalarProperty Name="SC_NAME" ColumnName="SC_NAME" />
+          <ScalarProperty Name="SC_CODE" ColumnName="SC_CODE" />
+          <ScalarProperty Name="SC_TYPE" ColumnName="SC_TYPE" />
+          <ScalarProperty Name="SC_ID" ColumnName="SC_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_MEALPRICE">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_MEALPRICE">
+        <MappingFragment StoreEntitySet="T_MEALPRICE">
+          <ScalarProperty Name="MP_CRDATE" ColumnName="MP_CRDATE" />
+          <ScalarProperty Name="MP_U_ID" ColumnName="MP_U_ID" />
+          <ScalarProperty Name="MP_STATUS" ColumnName="MP_STATUS" />
+          <ScalarProperty Name="MP_AMOUNT" ColumnName="MP_AMOUNT" />
+          <ScalarProperty Name="MP_ENDATE" ColumnName="MP_ENDATE" />
+          <ScalarProperty Name="MP_BGDATE" ColumnName="MP_BGDATE" />
+          <ScalarProperty Name="MP_M_ID" ColumnName="MP_M_ID" />
+          <ScalarProperty Name="MP_ID" ColumnName="MP_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_GETOPERATIONS" FunctionName="DB_UNIKITCHENModel.Store.SP_GETOPERATIONS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_UNIKITCHENModel.SP_GETOPERATIONS_Result">
+          <ScalarProperty Name="OPR_ID" ColumnName="OPR_ID" />
+          <ScalarProperty Name="OPR_NO" ColumnName="OPR_NO" />
+          <ScalarProperty Name="F_ID" ColumnName="F_ID" />
+          <ScalarProperty Name="F_NAME" ColumnName="F_NAME" />
+          <ScalarProperty Name="E_ID" ColumnName="E_ID" />
+          <ScalarProperty Name="E_NAME" ColumnName="E_NAME" />
+          <ScalarProperty Name="OPR_TOTAL" ColumnName="OPR_TOTAL" />
+          <ScalarProperty Name="OPR_BL" ColumnName="OPR_BL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="T_Z">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_Z">
+        <MappingFragment StoreEntitySet="T_Z">
+          <ScalarProperty Name="Z_CRDATE" ColumnName="Z_CRDATE" />
+          <ScalarProperty Name="Z_U_ID" ColumnName="Z_U_ID" />
+          <ScalarProperty Name="Z_AMOUNT" ColumnName="Z_AMOUNT" />
+          <ScalarProperty Name="Z_DATE" ColumnName="Z_DATE" />
+          <ScalarProperty Name="Z_NO" ColumnName="Z_NO" />
+          <ScalarProperty Name="Z_ID" ColumnName="Z_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_GETOPERATIONOFTHEDAYE" FunctionName="DB_UNIKITCHENModel.Store.SP_GETOPERATIONOFTHEDAYE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_UNIKITCHENModel.SP_GETOPERATIONOFTHEDAYE_Result">
+          <ScalarProperty Name="OPR_ID" ColumnName="OPR_ID" />
+          <ScalarProperty Name="OPR_TYPE" ColumnName="OPR_TYPE" />
+          <ScalarProperty Name="OPR_STYPE" ColumnName="OPR_STYPE" />
+          <ScalarProperty Name="OPR_NO" ColumnName="OPR_NO" />
+          <ScalarProperty Name="OPR_DATE" ColumnName="OPR_DATE" />
+          <ScalarProperty Name="OPR_F_ID" ColumnName="OPR_F_ID" />
+          <ScalarProperty Name="OPR_E_ID" ColumnName="OPR_E_ID" />
+          <ScalarProperty Name="OPR_BL" ColumnName="OPR_BL" />
+          <ScalarProperty Name="OPR_TOTAL" ColumnName="OPR_TOTAL" />
+          <ScalarProperty Name="OPR_STATUS" ColumnName="OPR_STATUS" />
+          <ScalarProperty Name="OPR_Z_ID" ColumnName="OPR_Z_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="T_CATEGORY">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_CATEGORY">
+        <MappingFragment StoreEntitySet="T_CATEGORY">
+          <ScalarProperty Name="CAT_STATUS" ColumnName="CAT_STATUS" />
+          <ScalarProperty Name="CAT_IMG" ColumnName="CAT_IMG" />
+          <ScalarProperty Name="CAT_NAME" ColumnName="CAT_NAME" />
+          <ScalarProperty Name="CAT_CODE" ColumnName="CAT_CODE" />
+          <ScalarProperty Name="CAT_ID" ColumnName="CAT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_GETMENUS" FunctionName="DB_UNIKITCHENModel.Store.SP_GETMENUS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_UNIKITCHENModel.SP_GETMENUS_Result">
+          <ScalarProperty Name="CAT_ID" ColumnName="CAT_ID" />
+          <ScalarProperty Name="CAT_NAME" ColumnName="CAT_NAME" />
+          <ScalarProperty Name="CAT_IMG" ColumnName="CAT_IMG" />
+          <ScalarProperty Name="M_ID" ColumnName="M_ID" />
+          <ScalarProperty Name="M_NAME" ColumnName="M_NAME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_GETMENUSDAILY" FunctionName="DB_UNIKITCHENModel.Store.SP_GETMENUSDAILY">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="DB_UNIKITCHENModel.SP_GETMENUSDAILY_Result">
+          <ScalarProperty Name="CAT_ID" ColumnName="CAT_ID" />
+          <ScalarProperty Name="CAT_NAME" ColumnName="CAT_NAME" />
+          <ScalarProperty Name="CAT_IMG" ColumnName="CAT_IMG" />
+          <ScalarProperty Name="M_ID" ColumnName="M_ID" />
+          <ScalarProperty Name="M_NAME" ColumnName="M_NAME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="T_MENUDAYLINE">
+      <EntityTypeMapping TypeName="DB_UNIKITCHENModel.T_MENUDAYLINE">
+        <MappingFragment StoreEntitySet="T_MENUDAYLINE">
+          <ScalarProperty Name="MDL_STATUS" ColumnName="MDL_STATUS" />
+          <ScalarProperty Name="MDL_QTY" ColumnName="MDL_QTY" />
+          <ScalarProperty Name="MDL_UO_ID" ColumnName="MDL_UO_ID" />
+          <ScalarProperty Name="MDL_M_ID" ColumnName="MDL_M_ID" />
+          <ScalarProperty Name="MDL_MD_ID" ColumnName="MDL_MD_ID" />
+          <ScalarProperty Name="MDL_ID" ColumnName="MDL_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

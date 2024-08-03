@@ -1,0 +1,144 @@
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csprojAssemblyReference.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Kassa.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Form1.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Properties.Resources.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.GenerateResource.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe.config
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\MetroFramework.Design.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\MetroFramework.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.pdb
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll.config
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.xml
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CopyComplete
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Company.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Kassa.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Company.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Properties.Resources.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe.config
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.pdb
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll.config
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CopyComplete
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe.config
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.dll
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.pdb
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll.config
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.xml
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csprojAssemblyReference.cache
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Kassa.resources
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Company.resources
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Login.resources
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Properties.Resources.resources
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.GenerateResource.cache
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CopyComplete
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Downloads\UNIKITCHEN - Copy\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Browser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Browser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Login.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.ShopboxEdit.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Payment.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMain.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmDepozitBrowser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmDepozitPopup.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMenuDailyBrowser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMenuDailyPopup.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealBrowser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPopup.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPriceBrowser.resources
+C:\Users\USER\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPricePopup.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe.config
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.WINFORM.pdb
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.pdb
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\UNIKITCHEN.DBL.dll.config
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.xml
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csprojAssemblyReference.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Browser.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Kassa.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Company.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmDepozitBrowser.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmDepozitPopup.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMain.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealBrowser.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPopup.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPriceBrowser.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMealPricePopup.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMenuDailyBrowser.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.FrmMenuDailyPopup.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Login.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Payment.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.Properties.Resources.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.ShopboxEdit.resources
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.GenerateResource.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CoreCompileInputs.cache
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.csproj.CopyComplete
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.exe
+C:\Users\FiruzaEPoladzade\Desktop\UNIKITCHEN\UNIKITCHEN\UNIKITCHEN.WINFORM\obj\Debug\UNIKITCHEN.WINFORM.pdb

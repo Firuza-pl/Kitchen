@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_UNIKITCHENModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="T_APPENDIX">
+    <Key>
+      <PropertyRef Name="A_ID" />
+    </Key>
+    <Property Name="A_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="A_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A_DATE" Type="DateTime" Precision="0" />
+    <Property Name="A_F_ID" Type="Int32" />
+    <Property Name="A_CONTRACTNO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A_PRICE" Type="Double" />
+    <Property Name="A_BGDATE" Type="DateTime" Precision="0" />
+    <Property Name="A_ENDATE" Type="DateTime" Precision="0" />
+    <Property Name="A_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_CATEGORY">
+    <Key>
+      <PropertyRef Name="CAT_ID" />
+    </Key>
+    <Property Name="CAT_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CAT_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CAT_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CAT_IMG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CAT_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_EMPLOYEE">
+    <Key>
+      <PropertyRef Name="E_ID" />
+    </Key>
+    <Property Name="E_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="E_F_ID" Type="Int32" />
+    <Property Name="E_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="E_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="E_SNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="E_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_FIRMS">
+    <Key>
+      <PropertyRef Name="F_ID" />
+    </Key>
+    <Property Name="F_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="F_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F_NAME" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="F_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_MEALPRICE">
+    <Key>
+      <PropertyRef Name="MP_ID" />
+    </Key>
+    <Property Name="MP_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MP_M_ID" Type="Int32" />
+    <Property Name="MP_BGDATE" Type="DateTime" Precision="0" />
+    <Property Name="MP_ENDATE" Type="DateTime" Precision="0" />
+    <Property Name="MP_AMOUNT" Type="Double" />
+    <Property Name="MP_STATUS" Type="Int16" />
+    <Property Name="MP_U_ID" Type="Int32" />
+    <Property Name="MP_CRDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="T_MEALS">
+    <Key>
+      <PropertyRef Name="M_ID" />
+    </Key>
+    <Property Name="M_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="M_CAT_ID" Type="Int32" />
+    <Property Name="M_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="M_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="M_OU_ID" Type="Int32" />
+    <Property Name="M_COFISENT" Type="Double" />
+    <Property Name="M_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_MENUDAY">
+    <Key>
+      <PropertyRef Name="MD_ID" />
+    </Key>
+    <Property Name="MD_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MD_DATE" Type="DateTime" Precision="0" />
+    <Property Name="MD_BLBGTIME" Type="Time" Precision="7" />
+    <Property Name="MD_BLENTIME" Type="Time" Precision="7" />
+    <Property Name="MD_U_ID" Type="Int32" />
+    <Property Name="MD_CRDATE" Type="DateTime" Precision="3" />
+    <Property Name="MD_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_MENUDAYLINE">
+    <Key>
+      <PropertyRef Name="MDL_ID" />
+    </Key>
+    <Property Name="MDL_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MDL_MD_ID" Type="Int32" />
+    <Property Name="MDL_M_ID" Type="Int32" />
+    <Property Name="MDL_UO_ID" Type="Int32" />
+    <Property Name="MDL_QTY" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MDL_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_OPERATION">
+    <Key>
+      <PropertyRef Name="OPR_ID" />
+    </Key>
+    <Property Name="OPR_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OPR_TYPE" Type="Int16" />
+    <Property Name="OPR_STYPE" Type="Int16" />
+    <Property Name="OPR_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OPR_DATE" Type="DateTime" Precision="3" />
+    <Property Name="OPR_F_ID" Type="Int32" />
+    <Property Name="OPR_E_ID" Type="Int32" />
+    <Property Name="OPR_BL" Type="Boolean" />
+    <Property Name="OPR_TOTAL" Type="Double" />
+    <Property Name="OPR_STATUS" Type="Int16" />
+    <Property Name="OPR_Z_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="T_OPERATIONLINE">
+    <Key>
+      <PropertyRef Name="OPRL_ID" />
+    </Key>
+    <Property Name="OPRL_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ORRL_OPR_ID" Type="Int32" />
+    <Property Name="OPRL_M_ID" Type="Int32" />
+    <Property Name="OPRL_UOM_ID" Type="Int32" />
+    <Property Name="OPRL_QTY" Type="Double" />
+    <Property Name="OPRL_PRICE" Type="Double" />
+    <Property Name="OPRL_TOTAL" Type="Double" />
+    <Property Name="OPRL_STATUS" Type="Int16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SPECODE">
+    <Key>
+      <PropertyRef Name="SC_ID" />
+    </Key>
+    <Property Name="SC_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SC_TYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SC_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SC_NAME" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SC_STATUS" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="T_SYS_MENUS">
+    <Key>
+      <PropertyRef Name="MNU_ID" />
+    </Key>
+    <Property Name="MNU_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MNU_PARENT" Type="Int32" />
+    <Property Name="MNU_M_ID" Type="Int32" />
+    <Property Name="MNU_CODE" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="MNU_CAPTION1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MNU_CAPTION2" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MNU_CAPTION3" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MNU_CAPTION4" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MNU_PAGEURL" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="MNU_CSSURL" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="MNU_LEVEL" Type="Int16" />
+    <Property Name="MNU_ORDERBY" Type="Int16" />
+    <Property Name="MNU_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_SYS_USER">
+    <Key>
+      <PropertyRef Name="U_ID" />
+    </Key>
+    <Property Name="U_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="U_TYPE" Type="Int32" />
+    <Property Name="U_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="U_FIRSTNAME" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="U_LASTNAME" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="U_USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="U_PASSWORD" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="U_CHANGEPASS" Type="Boolean" />
+    <Property Name="U_STATUS" Type="Int16" />
+    <Property Name="U_NOTE" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="U_EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="U_TEL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="U_CREATEDATE" Type="DateTime" Precision="3" />
+    <Property Name="U_IMG" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="U_FIRST" Type="Int16" />
+    <Property Name="U_LASTLOGIN_DATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="T_SYS_USERGROUP">
+    <Key>
+      <PropertyRef Name="UG_ID" />
+    </Key>
+    <Property Name="UG_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UG_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UG_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UG_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_SYS_USERMENU">
+    <Key>
+      <PropertyRef Name="UM_ID" />
+    </Key>
+    <Property Name="UM_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UM_U_TYPE" Type="Int32" />
+    <Property Name="UM_U_ID" Type="Int32" />
+    <Property Name="UM_TYPE" Type="Int32" />
+    <Property Name="UM_MNU_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="T_UOM">
+    <Key>
+      <PropertyRef Name="UO_ID" />
+    </Key>
+    <Property Name="UO_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UO_CODE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UO_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UO_STATUS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="T_Z">
+    <Key>
+      <PropertyRef Name="Z_ID" />
+    </Key>
+    <Property Name="Z_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Z_NO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Z_DATE" Type="DateTime" Precision="0" />
+    <Property Name="Z_AMOUNT" Type="Double" />
+    <Property Name="Z_U_ID" Type="Int32" />
+    <Property Name="Z_CRDATE" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="DB_UNIKITCHENEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="T_APPENDIX" EntityType="Self.T_APPENDIX" />
+    <EntitySet Name="T_CATEGORY" EntityType="Self.T_CATEGORY" />
+    <EntitySet Name="T_EMPLOYEE" EntityType="Self.T_EMPLOYEE" />
+    <EntitySet Name="T_FIRMS" EntityType="Self.T_FIRMS" />
+    <EntitySet Name="T_MEALPRICE" EntityType="Self.T_MEALPRICE" />
+    <EntitySet Name="T_MEALS" EntityType="Self.T_MEALS" />
+    <EntitySet Name="T_MENUDAY" EntityType="Self.T_MENUDAY" />
+    <EntitySet Name="T_MENUDAYLINE" EntityType="Self.T_MENUDAYLINE" />
+    <EntitySet Name="T_OPERATION" EntityType="Self.T_OPERATION" />
+    <EntitySet Name="T_OPERATIONLINE" EntityType="Self.T_OPERATIONLINE" />
+    <EntitySet Name="T_SPECODE" EntityType="Self.T_SPECODE" />
+    <EntitySet Name="T_SYS_MENUS" EntityType="Self.T_SYS_MENUS" />
+    <EntitySet Name="T_SYS_USER" EntityType="Self.T_SYS_USER" />
+    <EntitySet Name="T_SYS_USERGROUP" EntityType="Self.T_SYS_USERGROUP" />
+    <EntitySet Name="T_SYS_USERMENU" EntityType="Self.T_SYS_USERMENU" />
+    <EntitySet Name="T_UOM" EntityType="Self.T_UOM" />
+    <EntitySet Name="T_Z" EntityType="Self.T_Z" />
+    <FunctionImport Name="SP_GETMENUS" ReturnType="Collection(DB_UNIKITCHENModel.SP_GETMENUS_Result)">
+      <Parameter Name="CAT_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_GETMENUSDAILY" ReturnType="Collection(DB_UNIKITCHENModel.SP_GETMENUSDAILY_Result)">
+      <Parameter Name="CAT_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="SP_GETOPERATIONOFTHEDAYE" ReturnType="Collection(DB_UNIKITCHENModel.SP_GETOPERATIONOFTHEDAYE_Result)" />
+    <FunctionImport Name="SP_GETOPERATIONS" ReturnType="Collection(DB_UNIKITCHENModel.SP_GETOPERATIONS_Result)" />
+  </EntityContainer>
+  <ComplexType Name="SP_GETMENUS_Result">
+    <Property Type="Int32" Name="CAT_ID" Nullable="false" />
+    <Property Type="String" Name="CAT_NAME" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CAT_IMG" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="M_ID" Nullable="false" />
+    <Property Type="String" Name="M_NAME" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SP_GETMENUSDAILY_Result">
+    <Property Type="Int32" Name="CAT_ID" Nullable="false" />
+    <Property Type="String" Name="CAT_NAME" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CAT_IMG" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="M_ID" Nullable="false" />
+    <Property Type="String" Name="M_NAME" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SP_GETOPERATIONOFTHEDAYE_Result">
+    <Property Type="Int32" Name="OPR_ID" Nullable="false" />
+    <Property Type="Int16" Name="OPR_TYPE" Nullable="true" />
+    <Property Type="Int16" Name="OPR_STYPE" Nullable="true" />
+    <Property Type="String" Name="OPR_NO" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="OPR_DATE" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="OPR_F_ID" Nullable="true" />
+    <Property Type="Int32" Name="OPR_E_ID" Nullable="true" />
+    <Property Type="Boolean" Name="OPR_BL" Nullable="true" />
+    <Property Type="Double" Name="OPR_TOTAL" Nullable="true" />
+    <Property Type="Int16" Name="OPR_STATUS" Nullable="true" />
+    <Property Type="Int32" Name="OPR_Z_ID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SP_GETOPERATIONS_Result">
+    <Property Type="Int32" Name="OPR_ID" Nullable="false" />
+    <Property Type="String" Name="OPR_NO" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="F_ID" Nullable="true" />
+    <Property Type="String" Name="F_NAME" Nullable="true" MaxLength="250" />
+    <Property Type="Int32" Name="E_ID" Nullable="true" />
+    <Property Type="String" Name="E_NAME" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="OPR_TOTAL" Nullable="true" />
+    <Property Type="String" Name="OPR_BL" Nullable="false" MaxLength="13" />
+  </ComplexType>
+</Schema>

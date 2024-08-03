@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_UNIKITCHENModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="T_APPENDIX">
+    <Key>
+      <PropertyRef Name="A_ID" />
+    </Key>
+    <Property Name="A_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="A_NO" Type="varchar" MaxLength="50" />
+    <Property Name="A_DATE" Type="date" />
+    <Property Name="A_F_ID" Type="int" />
+    <Property Name="A_CONTRACTNO" Type="varchar" MaxLength="50" />
+    <Property Name="A_PRICE" Type="float" />
+    <Property Name="A_BGDATE" Type="date" />
+    <Property Name="A_ENDATE" Type="date" />
+    <Property Name="A_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_CATEGORY">
+    <Key>
+      <PropertyRef Name="CAT_ID" />
+    </Key>
+    <Property Name="CAT_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CAT_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="CAT_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="CAT_IMG" Type="nvarchar" MaxLength="50" />
+    <Property Name="CAT_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_EMPLOYEE">
+    <Key>
+      <PropertyRef Name="E_ID" />
+    </Key>
+    <Property Name="E_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="E_F_ID" Type="int" />
+    <Property Name="E_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="E_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="E_SNAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="E_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_FIRMS">
+    <Key>
+      <PropertyRef Name="F_ID" />
+    </Key>
+    <Property Name="F_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="F_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="F_NAME" Type="nvarchar" MaxLength="250" />
+    <Property Name="F_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_MEALPRICE">
+    <Key>
+      <PropertyRef Name="MP_ID" />
+    </Key>
+    <Property Name="MP_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MP_M_ID" Type="int" />
+    <Property Name="MP_BGDATE" Type="date" />
+    <Property Name="MP_ENDATE" Type="date" />
+    <Property Name="MP_AMOUNT" Type="float" />
+    <Property Name="MP_STATUS" Type="smallint" />
+    <Property Name="MP_U_ID" Type="int" />
+    <Property Name="MP_CRDATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="T_MEALS">
+    <Key>
+      <PropertyRef Name="M_ID" />
+    </Key>
+    <Property Name="M_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="M_CAT_ID" Type="int" />
+    <Property Name="M_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="M_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="M_OU_ID" Type="int" />
+    <Property Name="M_COFISENT" Type="float" />
+    <Property Name="M_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_MENUDAY">
+    <Key>
+      <PropertyRef Name="MD_ID" />
+    </Key>
+    <Property Name="MD_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MD_DATE" Type="date" />
+    <Property Name="MD_BLBGTIME" Type="time" Precision="7" />
+    <Property Name="MD_BLENTIME" Type="time" Precision="7" />
+    <Property Name="MD_U_ID" Type="int" />
+    <Property Name="MD_CRDATE" Type="datetime" />
+    <Property Name="MD_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_MENUDAYLINE">
+    <Key>
+      <PropertyRef Name="MDL_ID" />
+    </Key>
+    <Property Name="MDL_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MDL_MD_ID" Type="int" />
+    <Property Name="MDL_M_ID" Type="int" />
+    <Property Name="MDL_UO_ID" Type="int" />
+    <Property Name="MDL_QTY" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="MDL_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_OPERATION">
+    <Key>
+      <PropertyRef Name="OPR_ID" />
+    </Key>
+    <Property Name="OPR_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OPR_TYPE" Type="smallint" />
+    <Property Name="OPR_STYPE" Type="smallint" />
+    <Property Name="OPR_NO" Type="varchar" MaxLength="50" />
+    <Property Name="OPR_DATE" Type="datetime" />
+    <Property Name="OPR_F_ID" Type="int" />
+    <Property Name="OPR_E_ID" Type="int" />
+    <Property Name="OPR_BL" Type="bit" />
+    <Property Name="OPR_TOTAL" Type="float" />
+    <Property Name="OPR_STATUS" Type="smallint" />
+    <Property Name="OPR_Z_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="T_OPERATIONLINE">
+    <Key>
+      <PropertyRef Name="OPRL_ID" />
+    </Key>
+    <Property Name="OPRL_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ORRL_OPR_ID" Type="int" />
+    <Property Name="OPRL_M_ID" Type="int" />
+    <Property Name="OPRL_UOM_ID" Type="int" />
+    <Property Name="OPRL_QTY" Type="float" />
+    <Property Name="OPRL_PRICE" Type="float" />
+    <Property Name="OPRL_TOTAL" Type="float" />
+    <Property Name="OPRL_STATUS" Type="smallint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="T_SPECODE">
+    <Key>
+      <PropertyRef Name="SC_ID" />
+    </Key>
+    <Property Name="SC_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SC_TYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="SC_CODE" Type="nvarchar" MaxLength="50" />
+    <Property Name="SC_NAME" Type="nvarchar" MaxLength="150" />
+    <Property Name="SC_STATUS" Type="bit" />
+  </EntityType>
+  <EntityType Name="T_SYS_MENUS">
+    <Key>
+      <PropertyRef Name="MNU_ID" />
+    </Key>
+    <Property Name="MNU_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MNU_PARENT" Type="int" />
+    <Property Name="MNU_M_ID" Type="int" />
+    <Property Name="MNU_CODE" Type="varchar" MaxLength="250" />
+    <Property Name="MNU_CAPTION1" Type="nvarchar" MaxLength="250" />
+    <Property Name="MNU_CAPTION2" Type="nvarchar" MaxLength="250" />
+    <Property Name="MNU_CAPTION3" Type="nvarchar" MaxLength="250" />
+    <Property Name="MNU_CAPTION4" Type="nvarchar" MaxLength="250" />
+    <Property Name="MNU_PAGEURL" Type="varchar" MaxLength="250" />
+    <Property Name="MNU_CSSURL" Type="varchar" MaxLength="250" />
+    <Property Name="MNU_LEVEL" Type="smallint" />
+    <Property Name="MNU_ORDERBY" Type="smallint" />
+    <Property Name="MNU_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_SYS_USER">
+    <Key>
+      <PropertyRef Name="U_ID" />
+    </Key>
+    <Property Name="U_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="U_TYPE" Type="int" />
+    <Property Name="U_CODE" Type="varchar" MaxLength="20" />
+    <Property Name="U_FIRSTNAME" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="U_LASTNAME" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="U_USERNAME" Type="varchar" MaxLength="50" />
+    <Property Name="U_PASSWORD" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="U_CHANGEPASS" Type="bit" />
+    <Property Name="U_STATUS" Type="smallint" />
+    <Property Name="U_NOTE" Type="nvarchar" MaxLength="255" />
+    <Property Name="U_EMAIL" Type="nvarchar" MaxLength="50" />
+    <Property Name="U_TEL" Type="varchar" MaxLength="50" />
+    <Property Name="U_CREATEDATE" Type="datetime" />
+    <Property Name="U_IMG" Type="varchar" MaxLength="50" />
+    <Property Name="U_FIRST" Type="smallint" />
+    <Property Name="U_LASTLOGIN_DATE" Type="datetime" />
+  </EntityType>
+  <EntityType Name="T_SYS_USERGROUP">
+    <Key>
+      <PropertyRef Name="UG_ID" />
+    </Key>
+    <Property Name="UG_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UG_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="UG_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="UG_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_SYS_USERMENU">
+    <Key>
+      <PropertyRef Name="UM_ID" />
+    </Key>
+    <Property Name="UM_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UM_U_TYPE" Type="int" />
+    <Property Name="UM_U_ID" Type="int" />
+    <Property Name="UM_TYPE" Type="int" />
+    <Property Name="UM_MNU_ID" Type="int" />
+  </EntityType>
+  <EntityType Name="T_UOM">
+    <Key>
+      <PropertyRef Name="UO_ID" />
+    </Key>
+    <Property Name="UO_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UO_CODE" Type="varchar" MaxLength="50" />
+    <Property Name="UO_NAME" Type="nvarchar" MaxLength="50" />
+    <Property Name="UO_STATUS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="T_Z">
+    <Key>
+      <PropertyRef Name="Z_ID" />
+    </Key>
+    <Property Name="Z_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Z_NO" Type="varchar" MaxLength="50" />
+    <Property Name="Z_DATE" Type="date" />
+    <Property Name="Z_AMOUNT" Type="float" />
+    <Property Name="Z_U_ID" Type="int" />
+    <Property Name="Z_CRDATE" Type="datetime" />
+  </EntityType>
+  <Function Name="SP_GETMENUS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CAT_ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_GETMENUSDAILY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CAT_ID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_GETOPERATIONOFTHEDAYE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_GETOPERATIONS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="DB_UNIKITCHENModelStoreContainer">
+    <EntitySet Name="T_APPENDIX" EntityType="Self.T_APPENDIX" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_CATEGORY" EntityType="Self.T_CATEGORY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_EMPLOYEE" EntityType="Self.T_EMPLOYEE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_FIRMS" EntityType="Self.T_FIRMS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_MEALPRICE" EntityType="Self.T_MEALPRICE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_MEALS" EntityType="Self.T_MEALS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_MENUDAY" EntityType="Self.T_MENUDAY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_MENUDAYLINE" EntityType="Self.T_MENUDAYLINE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_OPERATION" EntityType="Self.T_OPERATION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_OPERATIONLINE" EntityType="Self.T_OPERATIONLINE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_SPECODE" EntityType="Self.T_SPECODE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_SYS_MENUS" EntityType="Self.T_SYS_MENUS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_SYS_USER" EntityType="Self.T_SYS_USER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_SYS_USERGROUP" EntityType="Self.T_SYS_USERGROUP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_SYS_USERMENU" EntityType="Self.T_SYS_USERMENU" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_UOM" EntityType="Self.T_UOM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="T_Z" EntityType="Self.T_Z" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
